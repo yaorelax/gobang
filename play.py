@@ -132,7 +132,7 @@ def init_checkerboard():
     black_list = np.zeros((15, 15), dtype=int)
     pygame.event.set_blocked(
         [1, 4, KEYUP, JOYAXISMOTION, JOYBALLMOTION, JOYBUTTONDOWN, JOYBUTTONUP, JOYHATMOTION, MOUSEBUTTONUP])
-    pygame.event.set_allowed([MOUSEBUTTONDOWN, 12, KEYDOWN])
+    pygame.event.set_allowed([MOUSEBUTTONDOWN, MOUSEBUTTONUP, 12, KEYDOWN])
     flag = 0
     win = 0
     step = 0
