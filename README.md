@@ -1,0 +1,2 @@
+# gobang
+run play.py
